@@ -1,0 +1,12 @@
+[mgmt_servers]
+mgmt_server ansible_host=178.154.195.132
+
+[mgmt_servers:vars]
+ansible_user=egos
+
+[worker_servers]
+worker1 ansible_host=178.154.197.130
+worker2 ansible_host=178.154.199.77 
+
+[worker_servers:vars]
+ansible_user=egos
